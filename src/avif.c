@@ -33,7 +33,7 @@ const char * avifPixelFormatToString(avifPixelFormat format)
         default:
             break;
     }
-    return "Unknown";
+    return "Unknown?";
 }
 
 void avifGetPixelFormatInfo(avifPixelFormat format, avifPixelFormatInfo * info)
